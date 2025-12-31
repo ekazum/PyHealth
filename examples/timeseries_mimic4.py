@@ -18,5 +18,3 @@ if __name__ == "__main__":
     train_dataset, val_dataset, test_dataset = split_by_sample(
         dataset=samples, ratios=[0.7, 0.1, 0.2]
     )
-
-
